@@ -29,48 +29,48 @@
     // echo $students[0];
 
     // // associative array
-    // $employees = [
-    //     '01' => [
-    //         'name' => 'Rakib',
-    //         'designation' => 'CEO',
-    //         'information'   => [
-    //             'email' => 'rakib@corewebbd.com',
-    //             'phone' => '01712345678'
-    //         ]
-    //     ],
-    //     'Manager' => [
-    //         'name' => 'Saima',
-    //         'designation' => 'Manager',
-    //         'information'   => [
-    //             'email' => '<EMAIL>',
-    //             'phone' => '01712345678'
-    //         ]
-    //     ],
-    //     'Developer' => [
-    //         'name' => 'Monika',
-    //         'designation' => 'Developer',
-    //         'information'   => [
-    //             'email' => '<EMAIL>',
-    //             'phone' => '01712345678'
-    //         ]
-    //     ],
-    //     'Tester' => [
-    //         'name' => 'Hasib',
-    //         'designation' => 'Tester',
-    //         'information'   => [
-    //             'email' => '<EMAIL>',
-    //             'phone' => '01712345678'
-    //         ]
-    //     ],
-    //     'Designer' => [
-    //         'name' => 'Mahide',
-    //         'designation' => 'Designer',
-    //         'information'   => [
-    //             'email' => '<EMAIL>',
-    //             'phone' => '01712345678'
-    //         ]
-    //     ]
-    // ];
+    $employees = [
+        'CEO' => [
+            'name' => 'Rakib',
+            'designation' => 'CEO',
+            'information'   => [
+                'email' => 'rakib@corewebbd.com',
+                'phone' => '01712345678'
+            ]
+        ],
+        'Manager' => [
+            'name' => 'Saima',
+            'designation' => 'Manager',
+            'information'   => [
+                'email' => '<EMAIL>',
+                'phone' => '01712345678'
+            ]
+        ],
+        'Developer' => [
+            'name' => 'Monika',
+            'designation' => 'Developer',
+            'information'   => [
+                'email' => '<EMAIL>',
+                'phone' => '01712345678'
+            ]
+        ],
+        'Tester' => [
+            'name' => 'Hasib',
+            'designation' => 'Tester',
+            'information'   => [
+                'email' => '<EMAIL>',
+                'phone' => '01712345678'
+            ]
+        ],
+        'Designer' => [
+            'name' => 'Mahide',
+            'designation' => 'Designer',
+            'information'   => [
+                'email' => '<EMAIL>',
+                'phone' => '01712345678'
+            ]
+        ]
+    ];
 
     // echo "<pre>";
     // print_r($employees);
